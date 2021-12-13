@@ -25,7 +25,6 @@ void main() async {
 
 class MiApp extends StatefulWidget {
   final bool? logueado;
-
   MiApp({Key? key, @required this.logueado}) : super(key: key);
 
   @override
@@ -34,7 +33,6 @@ class MiApp extends StatefulWidget {
 
 class _MiAppState extends State<MiApp> {
   final bool? logueado;
-
   _MiAppState({@required this.logueado});
 
   @override
